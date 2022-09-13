@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Features
 
-First, run the development server:
+Developer experience first:
 
-```bash
+- ⚡ [Next.js](https://nextjs.org) for Static Site Generator
+- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
+- ✅ Strict Mode for TypeScript and React 18
+- 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
+- 💖 Code Formatter with [Prettier](https://prettier.io)
+- 🦊 Husky for Git Hooks
+- 🚫 Lint-staged for running linters on Git staged files
+- 🚓 Lint git commit with Commitlint
+- 🦺 Unit Testing with Jest and React Testing Library
+- 🧪 E2E Testing with Cypress
+- 💡 Absolute Imports using `@` prefix
+- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript, Jest
+- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
+- ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
+- 🌈 Include a FREE minimalist theme
+- 💯 Maximize lighthouse score
+
+Built-in feature from Next.js:
+
+- ☕ Minify HTML & CSS
+- 💨 Live reload
+- ✅ Cache busting
+
+### Philosophy
+
+- Minimal code
+- SEO-friendly
+- 🚀 Production-ready
+### Requirements
+
+- Node.js 14+ and npm
+
+### Getting started
+
+Then, you can run locally in development mode with live reload:
+
+```shell
 npm run dev
-# or
-yarn dev
 ```
+### Testing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All tests are colocated with the source code inside the same directory. So, it makes it easier to find them. Unfortunately, it is not possible with the `pages` folder which is used by Next.js for routing. So, what is why we have a `pages.test` folder to write tests from files located in `pages` folder.
+### Contributions
+<a href="https://github.com/nhrasal">
+  <img src="https://gitlab.com/uploads/-/system/user/avatar/11284373/avatar.png?width=23">
+</a>

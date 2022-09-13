@@ -1,0 +1,33 @@
+.main-footer {
+    .footer {
+        background-color: #434343;
+        color: #ffffff;
+        padding-top: 64px;
+        padding-bottom: 70px;
+    }
+    .wx__footer-logo {
+        padding-bottom: 24px;
+    }
+    .wx__social-media {
+        background: #595959;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        padding: 10px;
+        &:hover {
+            background: red;
+        }
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        p:hover {
+            cursor: pointer;
+            color: red !important;
+        }
+    }
+}
